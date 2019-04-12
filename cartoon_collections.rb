@@ -1,5 +1,9 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(names)
+  name_list = names 
+  array = ["Dopey", "Bashful", "Sneezy", "Sleepy", "Happy", "Grumpy", "Doc"]
+  array.each do |names|
+    roll_call_dwarves(names)
+  end
 end
 
 def summon_captain_planet# code an argument here
